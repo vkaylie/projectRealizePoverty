@@ -1,0 +1,185 @@
+.povSto{
+  color: #e6e6e6;
+}
+
+footer{ 
+   border-color: #a12b2b; 
+  border-left: 325px;
+  border-right:325px;
+   background:#a12b2b
+
+  
+}
+.BRICK_KAYLIE{
+  margin-left: 300px
+}
+.frontPic{
+
+  margin-left: 430px;
+  border-right:15px ; 
+  border-color: #39393a;
+
+}
+.frontPic {
+display:flex;
+justify-content: center;
+  width: 50%
+
+}
+.frontPic {
+  height: 90%;
+}
+
+.nav-bar-options{
+
+
+    width: auto;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background: #CC3E3E;
+    border: 6px solid #A12B2B;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+    
+
+
+p {
+  line-height: 28px;
+}
+
+p {
+  white-space: 40wrap;
+}
+
+  p{ color: #39393a;}
+head,h3,h2{background: #e6e6e6; color:#39393a;}
+
+
+.howHelp{
+  color: #e6e6e6
+}
+
+
+div, .povSto, .howHelp, .WhyPov, .WhatPov, .PovStats{background-color: #39393a;
+  padding:10;
+  border: 1 px solid #d4aa87;
+  margin: 0; 
+margin-left:50px ;
+height: fit-content;
+}
+p{ background-color: #e6e6e6;
+  padding: 50px;
+  BORDER-WIDTH: 6px;
+  border-style:solid;
+  border-color:#d4aa87;
+  margin: 50px; }
+
+  intro{background-color: #39393a;
+    padding:10;
+    border: 1 px solid #d4aa87;
+    margin: 0; }
+  intro{ background-color: #e6e6e6;
+    padding: 50px;
+    BORDER-WIDTH: 6px;
+    border-style:solid;
+    border-color:#d4aa87;
+    margin: 50px; }
+  
+
+
+h1{
+    font-family: 'Bitter', serif; 
+    font-weight: bold;
+    font-size: 40px;
+  }
+h3{
+  color: #e6e6e6;
+}
+
+  
+  .title{
+    color: #39393a;
+    display: flex;
+    justify-content: center;
+    font-weight: 80px;
+    text-transform: uppercase;
+  }
+  
+  .nav-bar-options{
+    list-style-type: none;
+    display:center ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    color: #5E6472;
+  }
+  
+  .option{
+    display: inline;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  a:link{
+    text-decoration: none;
+    color: #39393a;
+    text-transform: uppercase;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  a:visited{
+    color: #39393a;
+  }
+  
+  .nav { 
+    position: center;
+    left: 0;
+    top: 0;
+    width: 90%;
+  }
+  
+  
+
+
+body{
+
+width: 1000px;
+height: px;
+left: 0px;
+top: 0px;
+
+background: #39393A;
+/*background-image: url("poverty002.png"); */
+}
+body{
+  text-align: left;
+  padding: 170px;
+}
+
+.charts{
+margin-left: 150px;
+    border: 1px solid #a12b2b;
+    float: center;
+    width: 180;
+    height: auto;
+    transform: scale(40%);
+    width:320px ;
+  }
+  
+  .charts:hover {
+    border: 5px solid #CC3E3E;
+  }
+   
+
+.p{
+  background-color:#39393a
+  
+}
+

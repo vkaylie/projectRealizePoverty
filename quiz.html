@@ -1,0 +1,168 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+   <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width">    
+    <title>repl.it</title>
+    <link href="script.js" rel="scriptsheet" type="text/js" />
+    <link href="quiz.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body><html>
+<h3 class "gameIntro">
+Welcome to PROJECT REALIZE.
+    <li class = "option"><a href="index.html"> Home Page</a></li></h3>
+<p>
+</h3>
+PROJECT REALIZE provides a simulation to realize that poverty is bigger than some people think it is.  In this simulation, you are in the shoes of a person in relative poverty.  You are a parent to two childern, both too young to work and no family to turn to.  With the scenarios below, will you suceed in each scenario?
+</p>
+
+   <form>
+<article class ="question-one">
+    <h3>SCENARIO ONE</h3>
+    <p>As a parent of two, you are given the choice to send them to foster care since you know you can not support them as much as foster care can... What will you do?</p>
+   <label for = "Q1A1" ><p id="Q1A1" onclick="questOneAnsOne()">
+ <input type="radio" name="Q1" value=0 >
+    Don't send them to foster care and continue to care for them </p>
+    </label>
+     <label for="Q1A2"></label> <p id="Q1A2" onclick="questOneAnsTwo()">
+    <input type="radio" name="Q1" value=1 id="Q1A2">
+   Send them to foster care and focus on getting out of poverty.</label></p>
+</article></form>
+
+
+<h3>SCENARIO TWO</h3>
+<p>Your child has been offered a seat at this school for achieving academic excellence.  Yet, the on;y problem is that it is at the other side of the city. What will you do?</p>
+<p id="Q2A1" onclick="questTwoAnsOne()">
+    <input type="radio" name="Q2" value=0 >
+Accept the offer and move to the other side of the city. 
+</p></label>
+
+<p id="Q2A2" onclick="questTwoAnsTwo()">
+    <input type="radio" name="Q2" value=1 >
+Accept the offer but don't move and drive him to school and back everyday since there is no bus stops in your area.
+</p></label>
+
+<p id="Q2A3" onclick="questTwoAnsThree()">
+    <input type="radio" name="Q2" value=3 >
+Decline the offer and let your child continue their edcation at their home school.
+</p></label>
+
+
+<h3>SCENARIO THREE</h3>
+<p>Your Landlord decided to raise the rent.  After trying to negotiate things with the rent.  They finished it saying either you pay the rent or move.  How will you handle this sitution?</p>
+
+<p id="Q3A1" onclick="questThreeAnsOne()">
+    <input type="radio" name="Q3" value=0 >
+Move and find a better place to live.
+</p></label>
+
+<p id="Q3A2" onclick="questThreeAnsTwo()">
+    <input type="radio" name="Q3" value=1 >
+Pay the rent and continue living there.
+</p></label>
+
+
+<h3>SCENARIO FOUR</h3>
+<p>You are lacking the money to pay the rent, what will you do?</p>
+
+<p id="Q4A1" onclick="questFourAnsOne()">
+    <input type="radio" name="Q4" value=0 >
+Sell items around your apartment.
+</p></label>
+
+<p id="Q4A2" onclick="questFourAnsTwo()">
+    <input type="radio" name="Q4" value=1 >
+Try to negotiate with the landlord again.
+</p></label>
+
+<p id="Q4A3" onclick="questFourAnsThree()">
+    <input type="radio" name="Q4" value=2 >
+Ask a friend to borrow some money.
+</p></label>
+
+
+<h3>SCENARIO FIVE</h3>
+<p>After deciding on your grceries for the week, you are left with $4 extra.  With the $4, how would you choose to spend it?</p>
+<p id="Q5A1" onclick="questFiveAnsOne()">
+    <input type="radio" name="Q5" value=0 >
+    Save the rest of the $4 for different matters.
+</p></label>
+
+<p id="Q5A2" onclick="questFiveAnsTwo()">
+    <input type="radio" name="Q5" value=1 >
+    Buy more ramen and quantity food
+</p></label>
+
+<p id="Q5A3" onclick="questFiveAnsThree()">
+    <input type="radio" name="Q5" value=2 >
+    Save the rest of the $4 for different matters
+</p></label>
+
+
+
+<script>
+
+//s1
+function questOneAnsOne(){
+document.getElementById("Q1A1").innerHTML = "You chose: You did not send them to Foster Care...  Not only will you continue you to struggle but your child will also the struggles that poverty carries.You did not send them to Foster Care. Not only will you continue you to struggle but your child will also the struggles that poverty carries.";
+} 
+
+function questOneAnsTwo(){
+document.getElementById("Q1A2").innerHTML = "You chose: Send them to foster care and focus on getting out of poverty...  You sent your kids to Foster Care.  Sometimes, in order to grow you must sacriface, yet leaving your child isn't easy to do as it left a heartburn in your chest.  People in poverty think about this often, what if I gave up my kid? Would they have been better off there?";
+} 
+
+
+//s2
+function questTwoAnsOne(){
+document.getElementById("Q2A1").innerHTML = "You chose: Accept the offer and move to the other side of the city... But it wasn't sucessful as you would think, as the rent prices in the other side is higher than you can afford,  you remain in your apartment as your kids go to their home school. People in poverty usually decline opportunities like this because they can't go to it as they can't afford it.";
+} 
+
+function questTwoAnsTwo(){
+document.getElementById("Q2A2").innerHTML = "You chose: Accept the offer but don't move and drive him to school and back everyday since there is no bus stops in your area... Although the first few days are working, driving your kids to school back and forth during your job is cutting hours and skipping lunch breaks.  Eventally, it takes a toll out of your car, your gas money, and your pay wage.  You have to cancel their school for academic excellence, switch back to their home school. People in poverty usually decline opportunities like this because they can't go to it as they can't afford it.";
+} 
+
+function questTwoAnsThree(){
+document.getElementById("Q2A3").innerHTML = "You chose: Decline the offer and let your child continue their edcation at their home school...  You continue to go around with your daily lives but your kids seem a little down then usual, perhaps is the fact they realized no matter how hard they try in school, they won't get into any of their opportunities.  However, people in poverty usually decline opportunities like this because they can't go to it as they can't afford it.";
+} 
+
+
+//s3
+function questThreeAnsOne(){
+document.getElementById("Q3A1").innerHTML = "You chose: Move and find a better place to live... As you scout for places to live, they are all to high for you to afford, you end up swallowing your pride and go back to your old apartment.  Sometimes, people cannot decided where to live as it is the best they got.";
+} 
+
+function questThreeAnsTwo(){
+document.getElementById("Q3A2").innerHTML = "You chose: Pay the rent and continue living there... Even though you were pretty heated by the argument with your landlord you decided to suck it up and pay the rent.Sometimes, people cannot decided where to live as it is the best they got.";
+} 
+
+
+//s4
+function questFourAnsOne(){
+document.getElementById("Q4A1").innerHTML = "You chose: Sell items around your apartment... After selling a bunch stuff you pulled throught the rent, but not your apartment looks blank.  People in poverty often resort to using items around their apartments as sacrifices to meet ends.";
+} 
+
+function questFourAnsTwo(){
+document.getElementById("Q4A2").innerHTML = "You chose: Try to negotiate with the landlord again... Your landlord tsks in disappointment and simply says to either pay the rent or I would find a eviction notice on my door.  Try again.";
+} 
+
+function questFourAnsThree(){
+document.getElementById("Q4A3").innerHTML = "You chose: Ask a friend to borrow some money...  Your friend says they are also struggling on cash, click a different option.";
+} 
+
+//s5
+function questFiveAnsOne(){
+document.getElementById("Q5A1").innerHTML = "You chose: Buy pork to make your kid's favorite meal... Technically speaking this is a unrealistic choice as people in poverty does not have the funds to have quality in their diet.";
+} 
+
+function questFiveAnsTwo(){
+document.getElementById("Q5A2").innerHTML = "You chose: Buy more ramen and quantity food... A good option as people in poverty usually eat food in quantity rather than quality.";
+} 
+
+function questFiveAnsThree(){
+document.getElementById("Q5A3").innerHTML = "You chose: Save the rest of the $4 for different matters... A good option as people in poverty would save thier money for else matters once they reached the minimum cost for food.";
+} 
+</script>

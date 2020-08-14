@@ -1,0 +1,68 @@
+intro{
+    border: 13px;
+}
+
+
+p {
+  line-height: 28px;
+}
+
+p {
+  white-space: 40wrap;
+}
+
+  p{ color: #e6e6e6;}
+head,h3,h2{background: #a12b2b; color:#e6e6e6;}
+
+
+.gameIntro{
+    color: #e6e6e6
+}
+
+h1{
+    font-family: 'Bitter', serif; 
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+
+  
+body{
+    text-align: left;
+    padding: 170px;
+  }
+  
+
+
+body{
+
+display: applied;
+
+width: 1000px;
+height: px;
+margin-left: 0px;
+margin-right: 135px;
+background: #39393A;
+
+}
+
+.charts{
+margin-left: 250px;
+    border: 1px solid #a12b2b;
+    float: center;
+    width: 180;
+    height: auto;
+    transform: scale(40%);
+  }
+  
+  .charts:hover {
+    border: 5px solid #CC3E3E;
+  }
+   
+
+.p{
+  background-color:#39393a
+  
+}
+
+
